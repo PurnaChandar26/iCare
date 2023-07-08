@@ -1,4 +1,4 @@
-# I Carexfcg
+# I Carexf
 Welcome to the "I Care" repository!
 
 "I Care" is a static web application of a hospital management system that has been developed using HTML, CSS, and Django. The project contains three modules: admin, client, and doctor, which have been designed to provide a comprehensive solution for managing a hospital."I Care" has been developed to provide a comprehensive solution for managing a hospital. It is a user-friendly system that is easy to navigate and helps hospital staff to manage their tasks more efficiently. The project can be customized to meet the specific needs of any hospital and can be easily integrated into existing systems. Overall, "I Care" is a reliable and efficient hospital management system that can help hospitals to provide better care to their patients.
