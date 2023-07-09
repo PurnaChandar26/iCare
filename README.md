@@ -10,7 +10,7 @@ Steps for executing iCare program:
 2. Extract the zip folder.
 3. Open a terminal or command prompt and navigate to the project folder of the iCare program. This can typically be done using the "cd" command followed by the path to the project folder. For example:
 
-cd path/to/iCare-project-folder
+-- cd path/to/iCare-project-folder
 
 4. Then run following Commands:
 
