@@ -4,13 +4,39 @@ Welcome to the "I Care" repository!
 "I Care" is a static web application of a hospital management system that has been developed using HTML, CSS, and Django. The project contains three modules: admin, client, and doctor, which have been designed to provide a comprehensive solution for managing a hospital."I Care" has been developed to provide a comprehensive solution for managing a hospital. It is a user-friendly system that is easy to navigate and helps hospital staff to manage their tasks more efficiently. The project can be customized to meet the specific needs of any hospital and can be easily integrated into existing systems. Overall, "I Care" is a reliable and efficient hospital management system that can help hospitals to provide better care to their patients.
 
 ## Getting Started
-To get started with the "I Care" project, please follow the instructions below:
+Steps for executing iCare program: 
 
-Clone the repository to your local machine.
-Install the required dependencies.
-Run the migration command to set up the database schema.
-Start the development server.
-The development server will start running on your local machine at http://localhost:8000/.
+1. Make sure your pc has all the required python modules. (Requirements attached below)
+2. Extract the zip folder.
+3. Open a terminal or command prompt and navigate to the project folder of the iCare program. This can typically be done using the "cd" command followed by the path to the project folder. For example:
+
+cd path/to/iCare-project-folder
+
+4. Then run following Commands:
+
+--> py manage.py makemigrations
+
+{This command prepares the database migrations based on the changes made to the models in the iCare program.}
+
+--> py manage.py migrate
+
+{This command applies the prepared migrations to the database, creating the necessary tables and relationships.}
+
+--> py manage.py runserver
+
+{This command starts the development server, allowing you to access the iCare program through a browser.}
+
+5. Now enter the following URL in Your Browser: http://127.0.0.1:8000/
+
+
+
+Requirements:
+- python latest version
+- django 
+	- to install, type 'pip install django' (without quotes) in the windows terminal 
+	  also install 'pip install django-widget-tweaks' in the windows terminal
+-xhtml
+	- to install, type 'pip install xhtml2pdf' (without quotes) in the windows terminal 
 
 ## Modules
 The "I Care" project contains three modules:
